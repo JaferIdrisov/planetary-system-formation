@@ -192,13 +192,9 @@ r(t + Δt) = 2r(t) − r(t − Δt) + a(t) × Δt²
 
 ### Материалы этапа
 
-#### Презентация
+Все материалы этапа (отчёт и презентация) доступны в репозитории проекта:
 
-[Открыть на GitHub](https://github.com/JaferIdrisov/planetary-system-formation/blob/main/materials/simulation-modeling--lab03--presentation.pdf)
-
-#### Отчет
-
-[Открыть на GitHub](https://github.com/JaferIdrisov/planetary-system-formation/blob/main/materials/simulation-modeling--lab03--report.pdf)
+📁 **[Материалы этапа на GitHub](https://github.com/JaferIdrisov/planetary-system-formation/tree/main/materials)**
 
 ---
 
