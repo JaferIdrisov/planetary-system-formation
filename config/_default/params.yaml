@@ -21,7 +21,8 @@ marketing:
     description: 'Сайт группового проекта по моделированию образования планетной системы'
     twitter: ''
   analytics:
-    google_analytics: ''
+    google_analytics:
+      id: ''
     baidu_tongji: ''
     google_tag_manager: ''
     microsoft_clarity: ''
