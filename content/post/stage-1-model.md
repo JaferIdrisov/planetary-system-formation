@@ -196,6 +196,12 @@ r(t + Δt) = 2r(t) − r(t − Δt) + a(t) × Δt²
 
 📁 **[Материалы этапа на GitHub](https://github.com/JaferIdrisov/planetary-system-formation/tree/main/materials)**
 
+### Видеозапись защиты
+
+📹 **[ВКонтакте](https://vkvideo.ru/video-236912839_456239022)**
+
+📹 **[Rutube](https://rutube.ru/video/private/39be325f3f549a6af40597e5c1c3b18c/?p=56WTqin0jtlnuNdrS1D4WQ)**
+
 ---
 
 ### Рабочая группа
