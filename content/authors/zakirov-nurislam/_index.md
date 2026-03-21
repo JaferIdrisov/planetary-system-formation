@@ -14,7 +14,7 @@ role: Студент
 
 # Organizations/Affiliations
 organizations:
-  - name: МГТУ им. Н.Э. Баумана
+  - name: РУДН
     url: ''
 
 # Short bio (displayed in user profile at end of posts)
@@ -27,7 +27,7 @@ interests:
 education:
   courses:
     - course: Бакалавриат
-      institution: МГТУ им. Н.Э. Баумана
+      institution: РУДН
       year: 2026
 
 # Social/Academic Networking
@@ -48,4 +48,4 @@ user_groups:
   - Студенты
 ---
 
-Закиров Нурислам Дамирович, студент группы 1132236040.
+Закиров Нурислам Дамирович, студент группы 1132236040, РУДН.
