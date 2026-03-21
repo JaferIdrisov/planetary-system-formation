@@ -194,15 +194,11 @@ r(t + Δt) = 2r(t) − r(t − Δt) + a(t) × Δt²
 
 #### Презентация
 
-[Скачать презентацию](/uploads/simulation-modeling--lab03--presentation.pdf)
-
-<embed src="/uploads/simulation-modeling--lab03--presentation.pdf" width="100%" height="600px" />
+[Открыть на GitHub](https://github.com/JaferIdrisov/planetary-system-formation/blob/main/materials/simulation-modeling--lab03--presentation.pdf)
 
 #### Отчет
 
-[Скачать отчет](/uploads/simulation-modeling--lab03--report.pdf)
-
-<embed src="/uploads/simulation-modeling--lab03--report.pdf" width="100%" height="600px" />
+[Открыть на GitHub](https://github.com/JaferIdrisov/planetary-system-formation/blob/main/materials/simulation-modeling--lab03--report.pdf)
 
 ---
 
