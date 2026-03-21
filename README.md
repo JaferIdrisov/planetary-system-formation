@@ -1,48 +1,140 @@
-# [Hugo Research Group Theme](https://github.com/wowchemy/starter-hugo-research-group)
+# Сайт проекта "Образование планетной системы"
 
-[![Screenshot](preview.png)](https://hugoblox.com/hugo-themes/)
+Сайт группового проекта, созданный на основе шаблона [HugoBlox theme-research-group](https://github.com/HugoBlox/theme-research-group).
 
-The **Research Group Template** empowers your research group to easily create a beautiful website with a stunning homepage, news, academic publications, events, team profiles, and a contact form.
+## Рабочая группа
 
-️**Trusted by 250,000+ researchers, educators, and students.** Highly customizable via the integrated **no-code, widget-based Wowchemy page builder**, making every site truly personalized ⭐⭐⭐⭐⭐
+- **Идрисов Джафер Арсенович** - 1132232876
+- **Ведьмина Александра Сергеевна** - 1132236003
+- **Кузьмин Егор Витальевич** - 1132236046
+- **Курилко-Рюмин Евгений Михайлович** - 1132232883
+- **Закиров Нурислам Дамирович** - 1132236040
+- **Глущенко Евгений Игоревич** - 1132239110
 
-[![Get Started](https://img.shields.io/badge/-Get%20started-ff4655?style=for-the-badge)](https://hugoblox.com/hugo-themes/)
-[![Discord](https://img.shields.io/discord/722225264733716590?style=for-the-badge)](https://discord.com/channels/722225264733716590/742892432458252370/742895548159492138)  
-[![Twitter Follow](https://img.shields.io/twitter/follow/GetResearchDev?label=Follow%20on%20Twitter)](https://twitter.com/wowchemy)
+## Этапы проекта
 
-Easily write technical content with plain text Markdown, LaTeX math, diagrams, RMarkdown, or Jupyter, and import publications from BibTeX.
+1. **Модель** - Презентация по научной проблеме. Теоретическое описание задачи. Описание модели.
+2. **Алгоритмы** - Презентация по алгоритмам решения задачи.
+3. **Комплексы программ** - Описание программной реализации проекта.
+4. **Защита проекта** - Коллективное обсуждение результата проекта, самооценка деятельности.
 
-[Check out the latest demo](https://research-group.netlify.app/) of what you'll get in less than 60 seconds, or [view the showcase](https://hugoblox.com/creators/).
+## Быстрый старт
 
-The integrated [**Wowchemy**](https://hugoblox.com) website builder and CMS makes it easy to create a beautiful website for free. Edit your site in the CMS (or your favorite editor), generate it with [Hugo](https://github.com/gohugoio/hugo), and deploy with GitHub or Netlify. Customize anything on your site with widgets, light/dark themes, and language packs.
+### Вариант 1: Использование Hugo (рекомендуется)
 
-- 👉 [**Get Started**](https://hugoblox.com/hugo-themes/)
-- 📚 [View the **documentation**](https://docs.hugoblox.com/)
-- 💬 [Chat with the **Wowchemy research community**](https://discord.gg/z8wNYzb) or [**Hugo community**](https://discourse.gohugo.io)
-- ⬇️ **Automatically import citations from BibTeX** with the [Hugo Academic CLI](https://github.com/GetRD/academic-file-converter)
-- 🐦 Share your new site with the community: [@wowchemy](https://twitter.com/wowchemy) [@GeorgeCushen](https://twitter.com/GeorgeCushen) [#MadeWithWowchemy](https://twitter.com/search?q=%23MadeWithWowchemy&src=typed_query)
-- 🗳 [Take the survey and help us improve #OpenSource](https://forms.gle/NioD9VhUg7PNmdCAA)
-- 🚀 [Contribute improvements](https://github.com/HugoBlox/hugo-blox-builder/blob/main/CONTRIBUTING.md) or [suggest improvements](https://github.com/HugoBlox/hugo-blox-builder/issues)
-- ⬆️ **Updating?** View the [Update Guide](https://docs.hugoblox.com/hugo-tutorials/update/) and [Release Notes](https://github.com/HugoBlox/hugo-blox-builder/releases)
+1. **Установите Hugo Extended** (версия 0.100 или выше):
+   
+   **Ubuntu/Debian:**
+   ```bash
+   sudo apt-get install hugo
+   ```
+   
+   **macOS:**
+   ```bash
+   brew install hugo
+   ```
+   
+   **Windows:**
+   ```bash
+   choco install hugo-extended
+   ```
+   
+   Или скачайте с [официального сайта](https://gohugo.io/getting-started/installing/)
 
-## We ask you, humbly, to support this open source movement
+2. **Перейдите в директорию сайта:**
+   ```bash
+   cd site
+   ```
 
-Today we ask you to defend the open source independence of the Wowchemy website builder and themes 🐧
+3. **Установите зависимости Go:**
+   ```bash
+   go mod init github.com/daidrisov/planetary-system-formation
+   go mod tidy
+   ```
 
-We're an open source movement that depends on your support to stay online and thriving, but 99.9% of our creators don't give; they simply look the other way.
+4. **Запустите локальный сервер:**
+   ```bash
+   hugo server
+   ```
 
-### [❤️ Click here to become a GitHub Sponsor, unlocking awesome perks such as _exclusive academic templates and widgets_](https://github.com/sponsors/gcushen)
+5. **Откройте браузер** по адресу: http://localhost:1313
 
-## Demo credits
+### Вариант 2: Docker
 
-Please replace the demo images with your own.
+Если у вас установлен Docker:
 
-- [Female scientist](https://unsplash.com/photos/uVnRa6mOLOM)
-- [2 Coders](https://unsplash.com/photos/kwzWjTnDPLk)
-- [Cafe](https://unsplash.com/photos/RnDGGnMEOao)
-- Blog posts
-  - https://unsplash.com/photos/AndE50aaHn4
-  - https://unsplash.com/photos/OYzbqk2y26c
-- Avatars
-  - https://unsplash.com/photos/5yENNRbbat4
-  - https://unsplash.com/photos/WNoLnJo7tS8
+```bash
+cd site
+docker run --rm -it -p 1313:1313 -v $(pwd):/src klakegg/hugo:ext-alpine server
+```
+
+## Развёртывание на GitHub Pages
+
+### Шаг 1: Создайте репозиторий на GitHub
+
+1. Создайте новый репозиторий с именем `planetary-system-formation`
+2. Не инициализируйте его README, .gitignore или лицензией
+
+### Шаг 2: Инициализируйте Git репозиторий
+
+```bash
+cd site
+git init
+git add .
+git commit -m "Initial commit"
+git branch -M main
+git remote add origin https://github.com/daidrisov/planetary-system-formation.git
+git push -u origin main
+```
+
+### Шаг 3: Настройте GitHub Pages
+
+1. Перейдите в настройки репозитория на GitHub
+2. Выберите раздел **Pages**
+3. В разделе **Build and deployment**:
+   - Source: GitHub Actions
+4. Workflow автоматически запустится после пуша
+
+### Шаг 4: Проверьте статус развёртывания
+
+1. Перейдите во вкладку **Actions** вашего репозитория
+2. Дождитесь завершения workflow
+3. После успешного развёртывания сайт будет доступен по адресу:
+   `https://daidrisov.github.io/planetary-system-formation/`
+
+## Структура проекта
+
+```
+site/
+├── config/              # Конфигурация Hugo
+├── content/             # Контент сайта
+│   ├── authors/         # Профили участников
+│   ├── people/          # Страница команды
+│   ├── stages/          # Этапы проекта
+│   └── contact/         # Контакты
+├── static/              # Статические файлы
+│   └── uploads/         # Загруженные файлы (презентации, отчеты)
+├── .github/workflows/   # GitHub Actions workflow
+└── theme.toml           # Информация о теме
+```
+
+## Добавление материалов
+
+### Добавление презентации или отчета
+
+1. Поместите PDF файл в `static/uploads/`
+2. Обновите соответствующую страницу в `content/stages/`
+
+### Обновление информации об участниках
+
+Отредактируйте файлы в `content/authors/`:
+- `idrisov-dzhafar/_index.md`
+- `vedmina-aleksandra/_index.md`
+- `kuzmin-egor/_index.md`
+- `kurilko-ryumin-evgeniy/_index.md`
+- `zakirov-nurislam/_index.md`
+- `glushhenko-evgeniy/_index.md`
+
+## Лицензия
+
+Этот проект использует тему [HugoBlox theme-research-group](https://github.com/HugoBlox/theme-research-group) под лицензией MIT.

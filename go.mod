@@ -1,6 +1,6 @@
-module github.com/wowchemy/starter-hugo-research-group
+module github.com/daidrisov/planetary-system-formation
 
-go 1.15
+go 1.22
 
 require (
 	github.com/HugoBlox/hugo-blox-builder/modules/blox-bootstrap/v5 v5.9.8-0.20241012174104-661cadc17327
