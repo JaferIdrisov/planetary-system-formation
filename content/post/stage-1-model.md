@@ -194,7 +194,7 @@ r(t + Δt) = 2r(t) − r(t − Δt) + a(t) × Δt²
 
 Все материалы этапа (отчёт и презентация) доступны в репозитории проекта:
 
-📁 **[Материалы этапа на GitHub](https://github.com/JaferIdrisov/planetary-system-formation/tree/main/materials)**
+📁 **[Материалы этапа на GitHub](https://github.com/JaferIdrisov/planetary-system-formation/tree/main/materials/stage_1)**
 
 ### Видеозапись защиты
 
